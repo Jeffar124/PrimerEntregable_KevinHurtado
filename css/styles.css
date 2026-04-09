@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1a6b3c;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #fff !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.logo-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #e8a020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0.5rem 1.9rem !important;
+}
+
+/* Header */
+#header-home {
+    background: linear-gradient(135deg, rgba(26, 107, 60, 0.82) 0%, rgba(30, 30, 30, 0.75) 100%),
+        url(https://cdn-3.expansion.mx/dims4/default/8ab237e/2147483647/strip/true/crop/1920x1080+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff8%2Fae%2F9766e75846328ebf2e52f6005796%2Fconalep-semillero-startups-tech.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#nombre {
+    color: white;
+    font-size: 3rem;
+    padding: 10px 20px;
+}
+
+/* Secciones */
+section {
+    padding: 5rem 0;
+}
+
+/* Lema */
+.lema-section {
+    background-color: #1a6b3c;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+blockquote.lema {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.4rem, 3vw, 2.1rem);
+    font-style: italic;
+    line-height: 1.5;
+    border: none;
+    position: relative;
+    padding: 0 3rem;
+}
+
+/* Resume */
+.resumen-section {
+    background: #f7f3ec;
+    text-align: justify;
+}
+
+/* Testimonios */
+.testimonios-section {
+    background-color: #f7f3ec;
+}
+
+.testimonio-card {
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.07);
+    position: relative;
+    height: 100%;
+}
+
+
+.testimonio-autor {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1rem 5px;
+}
+
+.autor-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #2d9b5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.autor-nombre {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.autor-rol {
+    font-size: 0.78rem;
+    color: #6c757d;
+}
+
+.btn-unirse {
+    background-color: #1a6b3c;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: #2d9b5a;
+        color: #fff;
+    }
+}
+
+/* Galeria */
+
+.galeria-section {
+    background-color: #3b2a1a;
+
+    .section-title {
+        color: #fff;
+        font-size: xxx-large;
+    }
+}
+
+.carousel-item img {
+    height: 480px;
+    object-fit: cover;
+    border-radius: 4px;
+    filter: brightness(0.88);
+}
+
+.btn-galeria {
+    border: 2px solid #e8a020;
+    color: #e8a020;
+    font-weight: 600;
+    padding: 0.65rem 2rem;
+    border-radius: 3px;
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+        background-color: #e8a020;
+        color: #3b2a1a;
+    }
+}
+
+/* Contacto */
+.contact-form-wrapper {
+    background-color: #f7f3ec;
+    border-radius: 6px;
+    padding: 2.5rem;
+
+    .form-label {
+        font-weight: 600;
+        font-size: 0.88rem;
+    }
+
+    .form-control {
+        border-radius: 3px;
+        border: 1.5px solid #d4cec5;
+        font-size: 0.92rem;
+    }
+}
+
+.btn-enviar {
+    background-color: #1a6b3c;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 2rem;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 100%;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: #2d9b5a;
+        color: #fff;
+    }
+}
+
+.info-contacto {
+    padding: 1rem 0;
+}
+
+.info-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.6rem;
+    align-items: flex-start;
+}
+
+.info-item h6 {
+    font-size: 0.82rem;
+    color: #6c757d;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.info-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #3b2a1a;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #1a6b3c;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: #e8a020;
+        color: #3b2a1a;
+    }
+}
+
+/* Footer */
+footer {
+    background: #3b2a1a;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    padding: 1.5rem 0;
+
+    a {
+        color: #e8a020;
+        text-decoration: none;
+    }
+}
