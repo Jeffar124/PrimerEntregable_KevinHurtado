@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/lightbox.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/aos.css">
 </head>
 
 <body>
@@ -46,15 +47,15 @@
 
         </div>
     </nav>
-    <header id="header-sobreSemillero">
+    <header id="header-sobreSemillero" data-aos="zoom-in">
         <h2>Quienes Somos</h2>
         <p>Conoce más sobre el Semillero de Innovación y Desarrollo Tecnológico (SIDET)</p>
     </header>
 
     <main id="main-sobreSemillero">
         <a href="./img/sobreSemillero/semillero.jpg" data-lightbox="Semillero">
-            <img src="./img/sobreSemillero/semillero.jpg" class="img-fluid" alt="..."></a>
-        <article class="article-sobreSemillero" id="reseña-Historica">
+            <img src="./img/sobreSemillero/semillero.jpg" class="img-fluid" alt="..." data-aos="zoom-in"></a>
+        <article class="article-sobreSemillero" id="reseña-Historica" data-aos="fade-up">
             <h2>Reseña Historica</h2>
             <p>El Semillero de Innovación y Desarrollo Tecnológico (SIDET) fue creado en el año 2022 como una iniciativa
                 de docentes y estudiantes interesados en fortalecer las competencias investigativas dentro del área
@@ -63,7 +64,7 @@
                 nacionales. Con el tiempo, ha consolidado un equipo interdisciplinario enfocado en la solución de
                 problemáticas del entorno mediante el uso de herramientas tecnológicas.</p>
         </article>
-        <article class="article-sobreSemillero" id="mision-Vision">
+        <article class="article-sobreSemillero" id="mision-Vision" data-aos="fade-up">
             <h2>Misión</h2>
             <p>Formar estudiantes con capacidades investigativas, críticas y creativas en el área tecnológica, mediante
                 el desarrollo de proyectos que contribuyan a la solución de problemas reales del entorno social y
@@ -74,7 +75,7 @@
                 tecnológica, su impacto en la comunidad y su aporte a la formación integral de estudiantes
                 investigadores.</p>
         </article>
-        <article class="article-sobreSemillero" id="Objetivos">
+        <article class="article-sobreSemillero" id="Objetivos" data-aos="fade-up">
             <h2>Objetivos del Semillero</h2>
             <p>El semillero SIDET se ha planteado los siguiente objetivos:</p>
             <ul>
@@ -86,7 +87,7 @@
                 <li>Fortalecer la cultura investigativa dentro de la comunidad universitaria.</li>
             </ul>
         </article>
-        <article class="article-sobreSemillero" id="lineasInvestigacion">
+        <article class="article-sobreSemillero" id="lineasInvestigacion" data-aos="fade-up">
             <h2>Líneas de Investigación</h2>
             <p>El semillero aborda las siguiente líneas de investigación, alineadas con las prioridades estrategicas de
                 la region</p>
@@ -113,6 +114,10 @@
     </footer>
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/lightbox-plus-jquery.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

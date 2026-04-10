@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/aos.css">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <blockquote class="lema">
+                    <blockquote data-aos="fade-up" class="lema">
                         Innovamos hoy para transformar el mañana.
                         <footer>— Lema del Semillero SIDET</footer>
                     </blockquote>
@@ -65,8 +66,8 @@
     </section>
 
     <section class="resumen-section">
-        <div class="container">
-            <div class="row align-items-center g-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row align-items-center justify-content-center g-5">
                 <div class="col-lg-7">
                     <h2 class="section-title">Quiénes somos</h2>
                     <div class="resumen-card">
@@ -81,14 +82,14 @@
                             resultados en revistas indexadas.</p>
                     </div>
     </section>
-    <section class="blog-section">
+    <section class="blog-section" data-aos="fade-up">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title">Noticias y Entradas</h2>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="blog-card card">
+                    <div class="blog-card card" data-aos="flip-right">
                         <img src="./img/blogHome/proyectoBiodiversidad.jpg" class="blog-card-img" alt="Entrada 1">
                         <div class="card-body d-flex flex-column">
                             <span class="blog-tag">Investigación</span>
@@ -104,7 +105,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="blog-card card">
+                    <div class="blog-card card" data-aos="flip-right">
                         <img src="./img/blogHome/congresoNacional.jpg" class="blog-card-img" alt="Entrada 2">
                         <div class="card-body d-flex flex-column">
                             <span class="blog-tag">Evento</span>
@@ -120,7 +121,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="blog-card card">
+                    <div class="blog-card card" data-aos="flip-right">
                         <img src="./img/blogHome/convocatoriaNuevosIntegrantes.jpg" class="blog-card-img"
                             alt="Entrada 3">
                         <div class="card-body d-flex flex-column">
@@ -141,14 +142,14 @@
     </section>
 
     <section class="testimonios-section">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="text-center mb-5">
                 <h2 class="section-title">Testimonios</h2>
             </div>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="testimonio-card card">
+                    <div class="testimonio-card card" data-aos="flip-left">
                         <p class="testimonio-texto">Pertenecer al Semillero Innova transformó mi visión académica.
                             Aprendí a investigar con rigor
                             y a trabajar en equipo para resolver problemas reales de nuestra región.</p>
@@ -162,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="testimonio-card card">
+                    <div class="testimonio-card card" data-aos="flip-left">
                         <p class="testimonio-texto">Gracias al semillero publiqué mi primer artículo científico en
                             tercer semestre. El
                             acompañamiento de los docentes y el ambiente colaborativo hacen la diferencia.</p>
@@ -176,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="testimonio-card card">
+                    <div class="testimonio-card card" data-aos="flip-left">
                         <p class="testimonio-texto">El semillero me dio herramientas metodológicas que aplico todos los
                             días en mi trabajo. Fue
                             la mejor decisión de mi carrera universitaria sin duda alguna.</p>
@@ -197,7 +198,7 @@
 
     </section>
     <section class="galeria-section">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="text-center mb-5">
                 <h2 class="section-title">Galeria</h2>
             </div>
@@ -243,7 +244,7 @@
 
     </section>
 
-    <section class="contacto-section" id="contactanos">
+    <section class="contacto-section" id="contactanos" data-aos="fade-up">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title">Contáctanos</h2>
@@ -302,11 +303,11 @@
                             style="font-size:.82rem; text-transform:uppercase; letter-spacing:.06em; color:var(--gris)">
                             Síguenos en redes</h6>
                         <div class="social-links">
-                            <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
-                            <a href="#" title="Twitter/X"><i class="bi bi-twitter-x"></i></a>
-                            <a href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
-                            <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" title="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
 
                     </div>
@@ -323,6 +324,11 @@
 
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/lightbox-plus-jquery.js"></script>
+    <script src="https://kit.fontawesome.com/3442208ed2.js" crossorigin="anonymous"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
